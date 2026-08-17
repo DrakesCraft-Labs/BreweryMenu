@@ -15,8 +15,13 @@
 
     <repositories>
         <repository>
+            <id>drakescraft-labs-maven</id>
+            <url>https://drakescraft-labs.github.io/maven-repo/</url>
+        </repository>
+
+        <repository>
             <id>paper-repo</id>
-            <url>https://repo.destroystokyo.com/repository/maven-public/</url>
+            <url>https://repo.papermc.io/repository/maven-public/</url>
         </repository>
 
         <repository>
@@ -49,23 +54,24 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
-            <version>1.17.1-R0.1-SNAPSHOT</version>
+            <groupId>com.github.drakescraft_labs</groupId>
+            <artifactId>slimefun-core</artifactId>
+            <version>11.0-Drake-1.21.11-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
-			<groupId>com.github.SlimefunGuguProject</groupId>
-			<artifactId>Slimefun4</artifactId>
-			<version>2024.3</version>
-			<scope>provided</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>io.github.baked-libs</groupId>
-                    <artifactId>dough-api</artifactId>
-                </exclusion>
-            </exclusions>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api</artifactId>
+            <version>1.21.1-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.drakescraft_labs</groupId>
+            <artifactId>slimefun-core</artifactId>
+            <version>11.0-Drake-1.21.11-SNAPSHOT</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.jetbrains</groupId>
