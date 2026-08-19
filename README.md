@@ -39,3 +39,13 @@ bajara el de upstream encima, dejaría de cargar. Las actualizaciones se desplie
 
 **El rastreador de fallos apunta aquí**, no al repositorio original: un fallo de esta versión
 casi nunca es un fallo de allí.
+
+## ⚖️ Upstream Attribution & License / Licencia y Créditos
+
+- **Original Project / Upstream**: Slimefun4 Community Addon.
+- **Port & Maintenance**: DrakesCraft Labs team (Compatibility for Paper / Purpur 1.21.11).
+- **License**: GPL-3.0 / MIT.
+- **Source Code**: [GitHub Repository](https://github.com/DrakesCraft-Labs/BreweryMenu)
+- **Support & Issues**: [GitHub Issues](https://github.com/DrakesCraft-Labs/BreweryMenu/issues) | [Discord](https://discord.gg/rR7FbfCt9Y)
+
+*This project is an open-source derivative work maintained by DrakesCraft Labs under the terms of its original license. All original assets and concepts belong to their respective creators.*
